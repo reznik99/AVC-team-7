@@ -62,7 +62,7 @@ return 0;}
 int forward(){
 	
 	set_motor(1,255);
-	sleep1(0,010000);
+	sleep1(0,010000);//sleep may not be needed/wanted
 	set_motor(2,255);
 	sleep1(0,010000);
 	
