@@ -71,7 +71,7 @@ return 0;}
 int slowReverse(){
 	
 	set_motor(1,-100);
-	sleep1(0,010000);
+	sleep1(0,010000);//sleep may not be needed/wanted
 	set_motor(2,-100);
 	sleep1(0,010000);
 	
@@ -85,4 +85,4 @@ int ifWall(){
 	
 return 0;}
 	
-
+//picture reader needed
